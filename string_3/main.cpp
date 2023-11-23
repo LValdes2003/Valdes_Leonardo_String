@@ -10,6 +10,6 @@ int main() {
     cout << "Escribe dos cadenas separadas por un espacio: " << endl;
     string a, b;
     cin >> a >> b;
-    std::cout << "Cadena resultante: " << concatenar(a,b) << std::endl;
+    cout << "Cadena resultante: " << concatenar(a,b) << endl;
     return 0;
 }

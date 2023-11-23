@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-    std::string frase = "Hola, mundo!";
-    std::cout << frase << std::endl;
+    string frase = "Hola, mundo!";
+    cout << frase << std::endl;
     return 0;
 }
